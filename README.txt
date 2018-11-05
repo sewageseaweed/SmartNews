@@ -8,10 +8,3 @@ Flask-bootstrap
 beautifulsoup4
 textblob
 Requests
-
-Main Contributors: 
-
-- Clyde Sumagang
-- Angel Calitis 
-- Alana Lanway
-- Jamiel Capatayan
