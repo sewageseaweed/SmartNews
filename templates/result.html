@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}
+  Smart News Result
+{% endblock %}
+{% block content %}
+<!-- templates/index.html -->
+<div class="container">
+<p> {{ statement }} </p>
+<p>We recommend checking the following articles in order to have a more balanced, informed opinion on the subject matter.</p>
+<ul>
+    {% for article in article_dict %}
+      <li><a href= {{ article_dict[article] }}> {{ article }} </a></li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

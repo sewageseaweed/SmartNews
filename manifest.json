@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Smart News",
+  "description": "Scans the article you are reading and provides alternate sources to avoid false information and bias.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "image.png",
+    "default_popup": "popup.html"
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+5"
+      }
+    }
+  },
+
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "content_scripts": [
+        {
+          "js": [
+              "jquery-3.3.1.min.js",                
+              "popup.js"
+              ],        
+          "matches": [
+              "http://*/*",
+              "https://*/*"
+            ]
+        }
+    ]
+
+
+} 
