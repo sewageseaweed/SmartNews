@@ -1,4 +1,4 @@
-# smartnews
+# SmartNews
 ### Smart news is a chrome extension with a purpose to provide users with reliable sources of information. The mission of this program is to not become a crutch for people to rely on to help determine if a source is reliable or not, but instead, become a tool that will help educate others on how to find reliable new sources, and see the outlook of an event from different perspectives.
 
 ***This project is currently in hiatus.***
